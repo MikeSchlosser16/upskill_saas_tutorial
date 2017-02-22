@@ -34,7 +34,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
-group :production do
+group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   #Use the PostgreSQL gem for Heroku production servers 
@@ -49,6 +49,12 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
 end
+
+group :production do
+  #Use the PostgreSQL gem Heroku for production servers
+  gem 'pg', '0.18.4'
+end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
