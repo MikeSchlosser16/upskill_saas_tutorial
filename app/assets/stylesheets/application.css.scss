@@ -52,8 +52,22 @@
   }
 }
 
+//CSS for when window is smaller and get the 3 bar click for menu
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:white;
+  border:5;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus{
+     background-color:#00c6ff;
+  }
+}
+
+
 //Homepage styles
-.home-callout{
+.home-callout {
   margin-top:-20px;
   padding-top:50px;
   padding-bottom:100px;
