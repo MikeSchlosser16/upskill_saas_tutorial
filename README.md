@@ -1,3 +1,3 @@
 # README
 
-[Upskill](http://upskillcourses.com) Software-as-a-Service Ruby on Rails App
+Hi, I am learning Ruby on Rails. Here is a project I've been working on! 
