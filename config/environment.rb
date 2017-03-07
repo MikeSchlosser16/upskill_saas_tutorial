@@ -13,4 +13,4 @@ ActionMailer::Base.smtp_settings = {
     :domain => 'https://powerful-escarpment-24499.herokuapp.com/',
     :authentication => :plain,
 }
-ActionMailer::Base.delivert_method = :smtp
+ActionMailer::Base.delivery_method = :smtp
