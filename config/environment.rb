@@ -11,6 +11,6 @@ ActionMailer::Base.smtp_settings = {
     :user_name => ENV['MAILGUN_SMTP_LOGIN'],
     :password => ENV['MAILGUN_SMTP_PASSWORD'],
     :domain => 'https://powerful-escarpment-24499.herokuapp.com/',
-    :authentivation => :plain,
+    :authentication => :plain,
 }
 ActionMailer::Base.delivert_method = :smtp
